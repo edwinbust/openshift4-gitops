@@ -1,0 +1,12 @@
+apiVersion: config.openshift.io/v1
+kind: Build
+metadata:
+  annotations:
+    release.openshift.io/create-only: 'true'
+  creationTimestamp: '2020-06-21T20:10:18Z'
+  generation: 1
+  name: cluster
+  resourceVersion: '1364'
+  selfLink: /apis/config.openshift.io/v1/builds/cluster
+  uid: 3a647eba-b3fb-11ea-81e4-0aeb56b83c68
+spec: {}
